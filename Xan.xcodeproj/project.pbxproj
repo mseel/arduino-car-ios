@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0F1F0F1A9CC85800102D02 /* NRFManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0F1F0E1A9CC85800102D02 /* NRFManager.swift */; };
 		ECE25EC11A8135710046ADA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE25EC01A8135710046ADA5 /* AppDelegate.swift */; };
 		ECE25EC31A8135710046ADA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE25EC21A8135710046ADA5 /* ViewController.swift */; };
 		ECE25EC61A8135710046ADA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE25EC41A8135710046ADA5 /* Main.storyboard */; };
 		ECE25EC81A8135710046ADA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE25EC71A8135710046ADA5 /* Images.xcassets */; };
 		ECE25ECB1A8135710046ADA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE25EC91A8135710046ADA5 /* LaunchScreen.xib */; };
 		ECE25ED71A8135710046ADA5 /* XanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE25ED61A8135710046ADA5 /* XanTests.swift */; };
-		ECE25EE11A8135B30046ADA5 /* NRFManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE25EE01A8135B30046ADA5 /* NRFManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC0F1F0E1A9CC85800102D02 /* NRFManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRFManager.swift; sourceTree = "<group>"; };
 		ECE25EBB1A8135710046ADA5 /* Xan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE25EBF1A8135710046ADA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE25EC01A8135710046ADA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		ECE25ED01A8135710046ADA5 /* XanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE25ED51A8135710046ADA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE25ED61A8135710046ADA5 /* XanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XanTests.swift; sourceTree = "<group>"; };
-		ECE25EE01A8135B30046ADA5 /* NRFManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NRFManager.swift; path = "../../nRF8001-Swift/nRF8001-Swift/NRFManager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +61,7 @@
 		ECE25EB21A8135710046ADA5 = {
 			isa = PBXGroup;
 			children = (
+				EC0F1F0E1A9CC85800102D02 /* NRFManager.swift */,
 				ECE25EBD1A8135710046ADA5 /* Xan */,
 				ECE25ED31A8135710046ADA5 /* XanTests */,
 				ECE25EBC1A8135710046ADA5 /* Products */,
@@ -80,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				ECE25EE21A8141D80046ADA5 /* images */,
-				ECE25EE01A8135B30046ADA5 /* NRFManager.swift */,
 				ECE25EC01A8135710046ADA5 /* AppDelegate.swift */,
 				ECE25EC21A8135710046ADA5 /* ViewController.swift */,
 				ECE25EC41A8135710046ADA5 /* Main.storyboard */,
@@ -224,7 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE25EC31A8135710046ADA5 /* ViewController.swift in Sources */,
-				ECE25EE11A8135B30046ADA5 /* NRFManager.swift in Sources */,
+				EC0F1F0F1A9CC85800102D02 /* NRFManager.swift in Sources */,
 				ECE25EC11A8135710046ADA5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +419,7 @@
 				ECE25EDC1A8135710046ADA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECE25EDD1A8135710046ADA5 /* Build configuration list for PBXNativeTarget "XanTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				ECE25EDF1A8135710046ADA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
