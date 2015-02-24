@@ -13,6 +13,7 @@
 		ECE25EC81A8135710046ADA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE25EC71A8135710046ADA5 /* Images.xcassets */; };
 		ECE25ECB1A8135710046ADA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE25EC91A8135710046ADA5 /* LaunchScreen.xib */; };
 		ECE25ED71A8135710046ADA5 /* XanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE25ED61A8135710046ADA5 /* XanTests.swift */; };
+		ECE25EE11A8135B30046ADA5 /* NRFManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE25EE01A8135B30046ADA5 /* NRFManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		ECE25ED01A8135710046ADA5 /* XanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE25ED51A8135710046ADA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE25ED61A8135710046ADA5 /* XanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XanTests.swift; sourceTree = "<group>"; };
+		ECE25EE01A8135B30046ADA5 /* NRFManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NRFManager.swift; path = "../../nRF8001-Swift/nRF8001-Swift/NRFManager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,8 @@
 		ECE25EBD1A8135710046ADA5 /* Xan */ = {
 			isa = PBXGroup;
 			children = (
+				ECE25EE21A8141D80046ADA5 /* images */,
+				ECE25EE01A8135B30046ADA5 /* NRFManager.swift */,
 				ECE25EC01A8135710046ADA5 /* AppDelegate.swift */,
 				ECE25EC21A8135710046ADA5 /* ViewController.swift */,
 				ECE25EC41A8135710046ADA5 /* Main.storyboard */,
@@ -110,6 +114,13 @@
 				ECE25ED51A8135710046ADA5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECE25EE21A8141D80046ADA5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE25EC31A8135710046ADA5 /* ViewController.swift in Sources */,
+				ECE25EE11A8135B30046ADA5 /* NRFManager.swift in Sources */,
 				ECE25EC11A8135710046ADA5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Xan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Xan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
